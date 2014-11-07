@@ -10,7 +10,7 @@
 
   stage = $("#stage");
 
-  colors = ["red", "purple"];
+  colors = ["red", "purple", "blue", "green", "yellow", "orange"];
 
   player_color = null;
 

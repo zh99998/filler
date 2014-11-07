@@ -4,7 +4,7 @@ rows = 15
 center_row = Math.floor(rows / 2)
 
 stage = $("#stage")
-colors = ["red", "purple"]#, "blue", "green", "yellow", "orange"]
+colors = ["red", "purple", "blue", "green", "yellow", "orange"]
 
 player_color = null
 opponent_color = null
