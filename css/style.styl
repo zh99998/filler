@@ -1,0 +1,29 @@
+.circle
+  box-sizing border-box
+  position absolute
+  width 50px
+  height 50px
+  border-radius 25px
+  font-size 10px
+  color #fff
+  line-height 50px
+  text-align center
+  &[data-color=red]
+    background red
+  &[data-color=purple]
+    background purple
+  &[data-color=blue]
+    background blue
+  &[data-color=green]
+    background green
+  &[data-color=yellow]
+    background yellow
+  &[data-color=orange]
+    background orange
+  &.player
+    border black 5px solid
+  &.opponent
+    border royalblue 5px solid
+  &.active
+    //box-shadow 0 0 50px black
+    border pink 5px dashed

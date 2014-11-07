@@ -1,0 +1,38 @@
+.circle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 10px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+.circle[data-color=red] {
+  background: #f00;
+}
+.circle[data-color=purple] {
+  background: #800080;
+}
+.circle[data-color=blue] {
+  background: #00f;
+}
+.circle[data-color=green] {
+  background: #008000;
+}
+.circle[data-color=yellow] {
+  background: #ff0;
+}
+.circle[data-color=orange] {
+  background: #ffa500;
+}
+.circle.player {
+  border: #000 5px solid;
+}
+.circle.opponent {
+  border: #4169e1 5px solid;
+}
+.circle.active {
+  border: #ffc0cb 5px dashed;
+}
